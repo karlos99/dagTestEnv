@@ -1,0 +1,33 @@
+# uv / Python environment
+.venv/
+.uv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Testing / tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Local run artifacts
+*.log
+.airflow/
+airflow.db
+airflow.cfg
